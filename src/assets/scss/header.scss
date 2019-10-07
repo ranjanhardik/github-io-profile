@@ -2,16 +2,17 @@ body {
   background-color: #ddd;
 }
 
-.home-wrap header {
-  width: 135px;
-  background-color: white;
-}
-
-.home-wrap .header-position {
-  top: 30px;
-  left: 0;
-  bottom: 30px;
-  width: 135px;
+.home-wrap {
+  header {
+    width: 135px;
+    background-color: white;
+    .header-position {
+      top: 30px;
+      left: 0;
+      bottom: 30px;
+      width: 135px;
+    }
+  }
 }
 
 .section {
