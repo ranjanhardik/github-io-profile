@@ -10,7 +10,7 @@ class Navigation extends Component {
 
   componentDidMount() {
     window.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 100;
+      const isTop = window.scrollY < 200;
       if (isTop !== true) {
         this.setState({
           scrolled: true
@@ -29,7 +29,11 @@ class Navigation extends Component {
 
   render() {
     return (
-      <nav className={`navbar navbar-expand-lg navbar-light p-3 navigation ${this.state.scrolled ? 'true' : 'false'}`}>
+      <nav
+        className={`navbar navbar-expand-lg p-3 navigation ${
+          this.state.scrolled ? "scrolled" : "not-scrolled"
+        }`}
+      >
         <a className="navbar-brand font-weight-bold" href="#">
           Asheesh Kumar
         </a>
@@ -58,7 +62,7 @@ class Navigation extends Component {
               </a>
             </li>
             <li className="nav-item px-3">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#contact">
                 Contact
               </a>
             </li>

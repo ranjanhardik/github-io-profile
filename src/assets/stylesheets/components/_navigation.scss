@@ -5,4 +5,42 @@
   background: transparent;
   width: 100%;
   max-width: 100%;
+  transform: translateZ(0);
+  transition: all 0.5s;
+  .nav-link, .navbar-brand {
+    color: #7510f7;
+  }
+}
+
+.scrolled {
+  position: fixed;
+  background-color: $color-white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(8%);
+  }
+  65% {
+    transform: translateY(-4%);
+  }
+  80% {
+    transform: translateY(4%);
+  }
+  95% {
+    transform: translateY(-2%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
