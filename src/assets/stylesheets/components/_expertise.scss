@@ -1,0 +1,13 @@
+.expertise {
+  padding-bottom: 200px;
+  .expertise-content {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: -200px;
+    background-color: $color-white;
+    .sub-heading {
+      color: $color-base;
+      font-weight: normal;
+    }
+  }
+}

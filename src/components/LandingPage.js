@@ -9,7 +9,7 @@ class LandingPage extends Component {
         <div className="landing-page d-flex flex-column justify-content-center align-items-center">
           <h1 className="mb-4 title">Hi, I am Asheesh. Nice to meet you.</h1>
           <p className="sub-title">I code beautiful looking websites.</p>
-          <img src={LandingImage} alt=""></img>
+          <img src={LandingImage} alt="" className="w-100 h-auto"></img>
         </div>
       </div>
     );

@@ -1,0 +1,13 @@
+.about-me {
+  background-color: $color-base;
+  padding: 100px 0 300px;
+  .about-me-heading {
+    color: $color-white;
+  }
+  .about-me-desc {
+    font-size: 20px;
+    color: $color-white;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+  }
+}

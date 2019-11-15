@@ -2,7 +2,10 @@ import React from "react";
 import Navigation from "./components/Navigation";
 import LandingPage from "./components/LandingPage";
 import Introduction from "./components/Introduction";
+import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
+import AboutMe from "./components/AboutMe";
+import Expertise from "./components/Expertise";
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
       <Navigation />
       <LandingPage />
       <Introduction />
+      <AboutMe />
+      <Expertise />
+      {/* <Timeline /> */}
       <Footer />
     </div>
   );
