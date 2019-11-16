@@ -6,6 +6,7 @@ import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
 import AboutMe from "./components/AboutMe";
 import Expertise from "./components/Expertise";
+import RecentWork from "./components/RecentWork";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Introduction />
       <AboutMe />
       <Expertise />
+      <RecentWork />
       {/* <Timeline /> */}
       <Footer />
     </div>

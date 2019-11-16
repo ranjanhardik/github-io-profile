@@ -3,4 +3,18 @@
 }
 a {
   font-size: $font-size-large;
+  color: $color-base;
+  &:hover {
+    color: $color-base;
+  }
+}
+
+.badge-pill-outline {
+  border: 2px solid $color-base;
+  display: inline-block;
+  padding: 10px 15px;
+  &:hover {
+    background-color: $color-base;
+    color: $color-white;
+  }
 }
