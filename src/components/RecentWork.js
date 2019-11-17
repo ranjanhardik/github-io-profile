@@ -48,6 +48,24 @@ class RecentWork extends Component {
                 </div>
               </div>
             </div>
+            <div className="col-12 col-md-4">
+              <div class="card">
+                <div class="card-body text-center">
+                  <h5 className="mb-3">NineAm</h5>
+                  <p className="card-text mb-5">
+                    Simple website design for displaying and promoting a brand.
+                  </p>
+                  <a
+                    href="https://asheeshkumar34.github.io/NineAm/"
+                    target="_blank"
+                    class="badge badge-pill badge-pill-outline"
+                  >
+                    Visit Website
+                    <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
