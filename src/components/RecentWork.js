@@ -10,7 +10,7 @@ class RecentWork extends Component {
             <p>Here are a few recent projects</p>
           </div>
           <div className="row">
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-md-4 mb-5 mb-md-0">
               <div class="card">
                 <div class="card-body text-center">
                   <h5 className="mb-3">Artkradle</h5>
@@ -29,7 +29,7 @@ class RecentWork extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-md-4 mb-5 mb-md-0">
               <div class="card">
                 <div class="card-body text-center">
                   <h5 className="mb-3">Onetown</h5>

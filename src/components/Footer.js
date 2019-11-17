@@ -43,7 +43,7 @@ class Footer extends Component {
               </span>
             </a>
             <a
-              className="mx-3"
+              className="mx-3 d-inline-block mt-4 mt-md-0"
               href="mailto: asheesh.kumar3496@gmail.com"
               target="_blank"
             >
