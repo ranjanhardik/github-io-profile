@@ -4,13 +4,9 @@ class Expertise extends Component {
   render() {
     return (
       <div className="expertise container">
-        <div className="expertise-content border rounded p-4 text-center">
+        <div className="expertise-content border rounded px-4 py-5 text-center">
           <div className="mb-5">
-            <h3>Frontend Engineer</h3>
-            <p>
-              I like to code things from scratch, and enjoy bringing ideas to
-              life in the browser.
-            </p>
+            <h3>My Expertise</h3>
           </div>
           <div className="row">
             <div className="col-12 col-md-6 mb-5 mb-md-0">
