@@ -19,7 +19,7 @@ class RecentWork extends Component {
                     photographs.
                   </p>
                   <a
-                    href="https://artkradle.herokuapp.com/index.html"
+                    href="https://asheeshkumar34.github.io/Artkradle/"
                     target="_blank"
                     class="badge badge-pill badge-pill-outline"
                   >
@@ -38,7 +38,7 @@ class RecentWork extends Component {
                     by a company.
                   </p>
                   <a
-                    href="https://websiteresponsive.herokuapp.com/index.html"
+                    href="https://asheeshkumar34.github.io/onetown/"
                     target="_blank"
                     class="badge badge-pill badge-pill-outline"
                   >
