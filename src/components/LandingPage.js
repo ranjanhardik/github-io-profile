@@ -5,7 +5,7 @@ import LandingImage from "../assets/images/landing_image.svg";
 class LandingPage extends Component {
   render() {
     return (
-      <div className="container">
+      <div id="landing-page" className="container">
         <div className="landing-page d-flex flex-column justify-content-center align-items-center">
           <h1 className="mb-4 title text-center">
             H

@@ -10,7 +10,7 @@ class Navigation extends Component {
 
   componentDidMount() {
     window.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 200;
+      const isTop = window.scrollY < 300;
       if (isTop !== true) {
         this.setState({
           scrolled: true
@@ -54,14 +54,14 @@ class Navigation extends Component {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarAsheesh">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item active px-3">
-              <a className="nav-link" href="#">
+          <ul className="navbar-nav ml-auto text-center">
+            <li className="nav-item px-3">
+              <a className="nav-link" href="#landing-page">
                 Introduction
               </a>
             </li>
             <li className="nav-item px-3">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#about-me">
                 About
               </a>
             </li>

@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class AboutMe extends Component {
   render() {
     return (
-      <div className="about-me">
-        <div className="container w-50">
+      <div id="about-me" className="about-me">
+        <div className="container about-me-content">
           <h3 className="text-center about-me-heading mb-3">About me</h3>
           <p className="about-me-desc text-center">I like to code things from scratch and enjoy bringing ideas to life in the browser.</p>
           <p className="about-me-desc mb-0 text-center">
