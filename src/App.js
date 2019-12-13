@@ -17,7 +17,7 @@ function App() {
       <AboutMe />
       <Expertise />
       <RecentWork />
-      {/* <Timeline /> */}
+      <Timeline />
       <Footer />
     </div>
   );

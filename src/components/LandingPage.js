@@ -20,7 +20,7 @@ class LandingPage extends Component {
             </div>
             ce to meet you.
           </h1>
-          <p className="sub-title">I code beautiful looking websites.</p>
+          {/* <p className="sub-title">I code beautiful looking websites.</p> */}
           <img src={LandingImage} alt="" className="w-100 h-auto"></img>
         </div>
       </div>
