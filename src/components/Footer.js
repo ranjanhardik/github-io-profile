@@ -5,6 +5,11 @@ class Footer extends Component {
     return (
       <footer id="contact">
         <div className="container">
+          <blockquote className="text-center">
+            <p className="quotation mb-5"> 
+              Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.
+            </p>
+          </blockquote> 
           <div className="social-links text-center pb-5">
             <a
               className="mx-3"
