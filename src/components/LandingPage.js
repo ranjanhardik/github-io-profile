@@ -13,12 +13,15 @@ class LandingPage extends Component {
               <p className="letter bounce">.</p>
               <p className="letter">ı</p>
             </div>
-            , I am Asheesh. N
-            <div className="box">
-              <p className="letter bounce">.</p>
-              <p className="letter">ı</p>
+            , I am Asheesh.
+            <div className="d-inline-block ml-md-2">
+              N
+              <div className="box">
+                <p className="letter bounce">.</p>
+                <p className="letter">ı</p>
+              </div>
+              ce to meet you.
             </div>
-            ce to meet you.
           </h1>
           <img src={LandingImage} alt="" className="w-100 h-auto"></img>
         </div>
