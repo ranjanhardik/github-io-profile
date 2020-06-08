@@ -26,7 +26,8 @@ class Timeline extends Component {
                 <h6>Cleartax</h6>
                 <p className="text-muted">Feb 2018 - June 2018</p>
                 <p>
-                  Cleartax is a fintech company helping people and businesses with tax, compliance and mutual fund investments.
+                  Cleartax is a fintech company helping people and businesses with tax, compliance and mutual fund
+                  investments.
                 </p>
               </div>
             </div>
@@ -37,7 +38,9 @@ class Timeline extends Component {
                 <h5>Engineering Intern</h5>
                 <h6>AppDirect</h6>
                 <p className="text-muted">Feb 2017 - Jul 2017</p>
-                <p>AppDirect provides the only end-to-end cloud commerce platform for succeeding in the digital economy.</p>
+                <p>
+                  AppDirect provides the only end-to-end cloud commerce platform for succeeding in the digital economy.
+                </p>
               </div>
             </div>
 

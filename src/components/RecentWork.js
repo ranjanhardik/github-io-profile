@@ -15,12 +15,12 @@ class RecentWork extends Component {
                 <div class="card-body text-center">
                   <h5 className="mb-3">Artkradle</h5>
                   <p className="card-text mb-5">
-                    Beautiful simple website design to showcase your art and
-                    photographs.
+                    Beautiful simple website design to showcase your art and photographs.
                   </p>
                   <a
                     href="https://asheeshkumar34.github.io/Artkradle/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="badge badge-pill badge-pill-outline"
                   >
                     Visit website
@@ -34,12 +34,12 @@ class RecentWork extends Component {
                 <div class="card-body text-center">
                   <h5 className="mb-3">Onetown</h5>
                   <p className="card-text mb-5">
-                    Simple website design for displaying the services provided
-                    by a company.
+                    Simple website design for displaying the services provided by a company.
                   </p>
                   <a
                     href="https://asheeshkumar34.github.io/onetown/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="badge badge-pill badge-pill-outline"
                   >
                     Visit Website
@@ -52,12 +52,11 @@ class RecentWork extends Component {
               <div class="card">
                 <div class="card-body text-center">
                   <h5 className="mb-3">NineAm</h5>
-                  <p className="card-text mb-5">
-                    Simple website design for displaying and promoting a brand.
-                  </p>
+                  <p className="card-text mb-5">Simple website design for displaying and promoting a brand.</p>
                   <a
                     href="https://asheeshkumar34.github.io/NineAm/"
                     target="_blank"
+                    rel="noopener noreferrer"
                     class="badge badge-pill badge-pill-outline"
                   >
                     Visit Website

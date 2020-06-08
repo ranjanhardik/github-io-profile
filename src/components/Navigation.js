@@ -4,7 +4,7 @@ class Navigation extends Component {
   constructor() {
     super();
     this.state = {
-      scrolled: false
+      scrolled: false,
     };
   }
 
@@ -13,11 +13,11 @@ class Navigation extends Component {
       const isTop = window.scrollY < 300;
       if (isTop !== true) {
         this.setState({
-          scrolled: true
+          scrolled: true,
         });
       } else {
         this.setState({
-          scrolled: false
+          scrolled: false,
         });
       }
     });
