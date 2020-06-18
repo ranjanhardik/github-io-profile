@@ -34,7 +34,7 @@ class Navigation extends Component {
           this.state.scrolled ? "scrolled" : "not-scrolled"
         }`}
       >
-        <a className="navbar-brand font-weight-bold" href="#">
+        <a className="navbar-brand font-weight-bold" href="/">
           Asheesh Kumar
         </a>
         <button

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ProfileImage from "../assets/images/profile_image.svg";
 import LandingImage from "../assets/images/landing_image.svg";
 
 class LandingPage extends Component {

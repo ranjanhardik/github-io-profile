@@ -8,20 +8,20 @@ class Timeline extends Component {
           <h3>Timeline</h3>
           <p>My journey so far...</p>
         </div>
-        <section class="timeline">
-          <div class="timeline-img"></div>
-          <div class="container">
-            <div class="timeline-item">
-              <div class="timeline-content js--fadeInRight">
+        <section className="timeline">
+          <div className="timeline-img"></div>
+          <div className="container">
+            <div className="timeline-item">
+              <div className="timeline-content js--fadeInRight">
                 <h5>Frontend Engineer</h5>
                 <h6>Flock(helloflock.com)</h6>
                 <p className="text-muted">July 2018 - Present</p>
                 <p>Flock is an all-in-one software platform to manage HR, Benefits, and Compliance.</p>
               </div>
             </div>
-            <div class="timeline-item">
-              <div class="timeline-img"></div>
-              <div class="timeline-content js--fadeInLeft">
+            <div className="timeline-item">
+              <div className="timeline-img"></div>
+              <div className="timeline-content js--fadeInLeft">
                 <h5>Frontend Intern</h5>
                 <h6>Cleartax</h6>
                 <p className="text-muted">Feb 2018 - June 2018</p>
@@ -32,9 +32,9 @@ class Timeline extends Component {
               </div>
             </div>
 
-            <div class="timeline-item">
-              <div class="timeline-img"></div>
-              <div class="timeline-content js--fadeInRight">
+            <div className="timeline-item">
+              <div className="timeline-img"></div>
+              <div className="timeline-content js--fadeInRight">
                 <h5>Engineering Intern</h5>
                 <h6>AppDirect</h6>
                 <p className="text-muted">Feb 2017 - Jul 2017</p>
@@ -44,9 +44,9 @@ class Timeline extends Component {
               </div>
             </div>
 
-            <div class="timeline-item">
-              <div class="timeline-img"></div>
-              <div class="timeline-content timeline-card js--fadeInLeft">
+            <div className="timeline-item">
+              <div className="timeline-img"></div>
+              <div className="timeline-content timeline-card js--fadeInLeft">
                 <h5>Chitkara University</h5>
                 <h6>Bachelor's degree</h6>
                 <p>Computer Science Engineering, 7.86/10</p>
@@ -54,9 +54,9 @@ class Timeline extends Component {
               </div>
             </div>
 
-            <div class="timeline-item">
-              <div class="timeline-img"></div>
-              <div class="timeline-content js--fadeInRight">
+            <div className="timeline-item">
+              <div className="timeline-img"></div>
+              <div className="timeline-content js--fadeInRight">
                 <h5>K.V. Sector-31, Chandigarh</h5>
                 <h6>High School</h6>
                 <p>Science, 83.4%</p>
