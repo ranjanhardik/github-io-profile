@@ -9,27 +9,27 @@ class Footer extends Component {
             <p className="quotation mb-5">Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.</p>
           </blockquote>
           <div className="social-links text-center pb-5">
-            <a className="mx-3" href="https://twitter.com/AsheeshKumar34" target="_blank" rel="noopener noreferrer">
+            <a className="mx-3" href="https://twitter.com/AsheeshKumar34" aria-label="twitter" target="_blank" rel="noopener noreferrer">
               <span className="icon-container p-2 d-inline-block rounded-circle">
                 <i class="fa fa-twitter fa-lg"></i>
               </span>
             </a>
-            <a className="mx-3" href="https://www.facebook.com/asheesh.kumar.9465" target="_blank" rel="noopener noreferrer">
+            <a className="mx-3" href="https://www.facebook.com/asheesh.kumar.9465" aria-label="facebook" target="_blank" rel="noopener noreferrer">
               <span className="icon-container p-2 d-inline-block rounded-circle">
                 <i class="fa fa-facebook fa-lg"></i>
               </span>
             </a>
-            <a className="mx-3" href="https://www.linkedin.com/in/theasheeshkumar/" target="_blank" rel="noopener noreferrer">
+            <a className="mx-3" href="https://www.linkedin.com/in/theasheeshkumar/" aria-label="linkedin" target="_blank" rel="noopener noreferrer">
               <span className="icon-container p-2 d-inline-block rounded-circle">
                 <i class="fa fa-linkedin fa-lg"></i>
               </span>
             </a>
-            <a className="mx-3" href="https://www.instagram.com/asheeshkumar34/" target="_blank" rel="noopener noreferrer">
+            <a className="mx-3" href="https://www.instagram.com/asheeshkumar34/" aria-label="instagram" target="_blank" rel="noopener noreferrer">
               <span className="icon-container p-2 d-inline-block rounded-circle">
                 <i class="fa fa-instagram fa-lg"></i>
               </span>
             </a>
-            <a className="mx-3 d-inline-block mt-4 mt-md-0" href="mailto: asheesh.kumar3496@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a className="mx-3 d-inline-block mt-4 mt-md-0" href="mailto: asheesh.kumar3496@gmail.com" aria-label="email" target="_blank" rel="noopener noreferrer">
               <span className="icon-container p-2 d-inline-block rounded-circle">
                 <i class="fa fa-envelope fa-lg"></i>
               </span>
