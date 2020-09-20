@@ -1,6 +1,9 @@
 @font-face {
   font-display: fallback;
 }
+html {
+  scroll-behavior: smooth;
+}
 a {
   font-size: $font-size-large;
   color: $color-base;
