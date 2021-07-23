@@ -37,7 +37,7 @@ class Footer extends Component {
           </div>
           <div className="copyright text-center">
             <span className="d-block">Handcrafted by me over a cup of tea</span>
-            <span className="d-inline-block">Copyright &copy; 2020</span>
+            <span className="d-inline-block">Copyright &copy; 2021</span>
           </div>
         </div>
       </footer>
