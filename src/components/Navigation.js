@@ -30,7 +30,7 @@ class Navigation extends Component {
   render() {
     return (
       <nav
-        className={`navbar navbar-expand-lg navbar-light p-3 navigation ${
+        className={`navbar navbar-expand-lg p-3 navigation ${
           this.state.scrolled ? "scrolled" : "not-scrolled"
         }`}
       >
@@ -60,11 +60,11 @@ class Navigation extends Component {
                 Introduction
               </a>
             </li>
-            <li className="nav-item px-3">
+            {/* <li className="nav-item px-3">
               <a className="nav-link" href="#about-me">
                 About
               </a>
-            </li>
+            </li> */}
             <li className="nav-item px-3">
               <a className="nav-link" href="#contact">
                 Contact

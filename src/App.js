@@ -14,7 +14,7 @@ function App() {
       <Navigation />
       <LandingPage />
       <Introduction />
-      <AboutMe />
+      {/* <AboutMe /> */}
       <Expertise />
       <RecentWork />
       <Timeline />

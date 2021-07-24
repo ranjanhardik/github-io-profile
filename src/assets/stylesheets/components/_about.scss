@@ -1,6 +1,6 @@
 .about-me {
-  background-color: $color-base;
   padding: 100px 0 300px;
+  @include gradient;
   .about-me-content {
     width: 50%;
     @media (max-width: 768px) {

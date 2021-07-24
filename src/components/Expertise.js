@@ -4,7 +4,7 @@ class Expertise extends Component {
   render() {
     return (
       <div className="expertise container">
-        <div className="expertise-content border rounded px-4 py-5 text-center">
+        <div className="expertise-content text-center">
           <div className="mb-5">
             <h3>My Expertise</h3>
           </div>

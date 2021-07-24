@@ -13,11 +13,16 @@ a {
 }
 
 .badge-pill-outline {
-  border: 2px solid $color-base;
+  border: 2px solid $color-white;
+  color: $color-white;
   display: inline-block;
   padding: 10px 15px;
   &:hover {
-    background-color: $color-base;
-    color: $color-white;
+    background-color: $color-white;
+    color: $color-base;
+    .fa-arrow-right {
+      transform: translateX(5px);
+      transition: transform 0.4s ease;
+    }
   }
 }
