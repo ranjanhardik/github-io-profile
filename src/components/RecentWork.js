@@ -16,7 +16,7 @@ class RecentWork extends Component {
                   <h5 className="mb-3">Linkedin Clone</h5>
                   <p className="card-text mb-5">A simple clone of Linkedin UI where user can signup and add posts.</p>
                   <a
-                    href="https://asheeshkumar34.github.io/NineAm/"
+                    href="https://linkedin-clone-48f52.web.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="badge badge-pill badge-pill-outline"
