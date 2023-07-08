@@ -1,0 +1,27 @@
+.landing-page {
+  padding-top: 100px;
+  display: grid;
+  place-items: center;
+  @include gradient;
+  .intro {
+    display: grid;
+    place-content: center;
+    .description {
+      font-size: 20px;
+    }
+  }
+  .title {
+    font-size: $font-size-extra-large;
+    font-family: "Big Shoulders Text", sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+  }
+  .sub-title {
+    font-size: 24px;
+    font-weight: 300;
+  }
+}
+
+.box {
+  display: inline-block;
+}

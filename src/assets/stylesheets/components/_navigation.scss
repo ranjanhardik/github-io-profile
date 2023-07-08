@@ -1,0 +1,67 @@
+.navigation {
+  width: 100%;
+  z-index: 5;
+  transform: translateZ(0);
+  transition: all 0.5s;
+  .nav-link,
+  .navbar-brand {
+    color: $color-base;
+  }
+  .navbar-toggler {
+    border-color: $color-base;
+    &:focus {
+      outline: none;
+    }
+  }
+  .toggle-icon {
+    .toggle-icon-one,
+    .toggle-icon-two,
+    .toggle-icon-three {
+      height: 3px;
+      background-color: $color-base;
+      margin: 4px 0;
+    }
+    .toggle-icon-one {
+      width: 15px;
+    }
+    .toggle-icon-two {
+      width: 22px;
+    }
+    .toggle-icon-three {
+      width: 29px;
+    }
+  }
+}
+
+.scrolled {
+  position: fixed;
+  background-color: $color-white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(8%);
+  }
+  65% {
+    transform: translateY(-4%);
+  }
+  80% {
+    transform: translateY(4%);
+  }
+  95% {
+    transform: translateY(-2%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

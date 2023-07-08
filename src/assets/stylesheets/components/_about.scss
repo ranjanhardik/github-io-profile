@@ -1,0 +1,19 @@
+.about-me {
+  padding: 100px 0 300px;
+  @include gradient;
+  .about-me-content {
+    width: 50%;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  .about-me-heading {
+    color: $color-white;
+  }
+  .about-me-desc {
+    font-size: 20px;
+    color: $color-white;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  }
+}
