@@ -8,8 +8,8 @@ class LandingPage extends Component {
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-6 text-white intro">
-              <h1 className="mb-4 title">Hey! I'm Asheesh</h1>
-              <p className="description">I am a frontend engineer based in Bangalore. I like to code things from scratch and enjoy bringing ideas to life in the browser.</p>
+              <h1 className="mb-4 title">Hey! I'm Hardik Ranjan</h1>
+              <p className="description">I am a Senior Salesforce Developer based in Hyderabad. I like to code things from scratch and enjoy bringing ideas to life in the browser.</p>
             </div>
             <div className="col-12 col-md-6">
               <img src={LandingImage} alt="" className="w-100"></img>
